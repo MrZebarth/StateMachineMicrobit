@@ -35,6 +35,7 @@ currentState = 0
 Over = false
 total = 0
 basic.showString("State:" + states[currentState])
+basic.showIcon(IconNames.Yes)
 basic.forever(function () {
     if (Over) {
         basic.showLeds(`
